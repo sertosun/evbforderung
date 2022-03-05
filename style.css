@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  font-family: "Segoe UI";
+  margin: 0px auto;
+}
+
+i {
+  font-size: 90px;
+  color: #0088cc;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 26px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.part {
+  width: 25%;
+  margin-top: 100px;
+}
+
+.fontawesome {
+  padding: 0;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
